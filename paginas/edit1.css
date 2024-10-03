@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://imagens.usp.br/wp-content/uploads/Campus-15-Foto-Marcos-Santos20101220_066.jpg);
+}
+p{  
+    background: rgba(0, 0, 0, 0.8);
+    border: 10px solid red;
+    border-radius: 20px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+    text-align: center;
+    
+}
+a{
+    width: 200px;
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}

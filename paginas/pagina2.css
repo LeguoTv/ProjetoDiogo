@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+nav{
+    display: inline-block;
+    margin-left: 77%;
+}
+nav img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+a{
+    display: inline-block;
+    font-style:italic;
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    width: 40%;
+    margin: auto;
+    display: block;
+    height: 25px;
+    border-radius: 10%;
+    padding: 0 20px;
+}
+.botao{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+button{
+    padding: 10px;
+}
