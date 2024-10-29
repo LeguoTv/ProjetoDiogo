@@ -1,3 +1,8 @@
+body {
+  background-image: url(../imagens/IA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   background-image: url(../imagens/por\ atrás\ do\ titulo.jpg);
   text-align: center;
@@ -7,7 +12,6 @@ h1 {
 }
 
 .singleproduto {
-  background: blue;
   height: 1000px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -15,9 +19,10 @@ h1 {
 }
 .fotoproduto {
   margin-left: 10px;
-  background: rgb(255, 0, 0);
-  height: 600px;
+  background: rgb(168, 168, 168);
+  height: 620px;
   width: 700px;
+  border-radius: 10px;
 }
 .descricao {
   background-color: aquamarine;
@@ -43,14 +48,15 @@ h1 {
   margin: 10px;
 }
 .img img {
-  width: 100%; /* a imagem ocupará 100% da coluna */
+  width: 100%;
   height: auto;
+  border: 2px solid transparent;
+  border-radius: 10px;
 }
 .product-container {
-  border: 1px solid #ddd;
+  border: 3px solid #9c9c9c;
   padding: 20px;
   background-color: #fff;
-
   height: 300px;
 }
 
@@ -103,5 +109,51 @@ h1 {
   right: 20px;
   width: 50px;
   margin-left: 180%;
-  margin-top: -83%;
+  margin-top: -90%;
+}
+span {
+  position: relative;
+  margin-top: -550px;
+}
+span button {
+  margin-left: 60px;
+  padding: 20px;
+  border: solid transparent;
+  border-radius: 7px;
+  width: 200px;
+  height: 30px;
+  background: rgb(0, 221, 29);
+  color: #fff;
+  font-weight: bolder;
+}
+.button1 {
+  height: 40px;
+  line-height: 5px;
+  font-size: 16px;
+}
+.button2 {
+  height: 40px;
+  line-height: 5px;
+  font-size: 16px;
+}
+.button1:hover {
+  background: #019114;
+}
+.button2:hover {
+  background: #019114;
+}
+.imagensaleatorias div {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  gap: 50px;
+  margin: 20px;
+  position: relative;
+  margin-top: -300px;
+}
+.imagensaleatorias div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 10px;
 }
