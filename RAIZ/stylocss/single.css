@@ -1,0 +1,107 @@
+h1 {
+  background-image: url(../imagens/por\ atrás\ do\ titulo.jpg);
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.singleproduto {
+  background: blue;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+.fotoproduto {
+  margin-left: 10px;
+  background: rgb(255, 0, 0);
+  height: 600px;
+  width: 700px;
+}
+.descricao {
+  background-color: aquamarine;
+  height: 500px;
+}
+.imagem {
+  height: 370px;
+  margin: 10px;
+}
+.imagem img {
+  width: 100%;
+  height: auto; /* mantém a proporção */
+  object-fit: cover;
+}
+.fotosdiferente {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.img {
+  flex: 1;
+  margin: 10px;
+}
+.img img {
+  width: 100%; /* a imagem ocupará 100% da coluna */
+  height: auto;
+}
+.product-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+
+  height: 300px;
+}
+
+.product-container .brand {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.product-container .title {
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-container .price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.product-container .price-container .pix-price {
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.product-container .price-container .credit-price {
+  text-align: right;
+  font-size: 1rem;
+  color: #333;
+}
+
+.product-container .pix-price del {
+  font-size: 0.8rem;
+  color: #888;
+  font-weight: normal;
+}
+
+.product-container .color-selection {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.whatsapp-icon {
+  position: relative;
+  right: 20px;
+  width: 50px;
+  margin-left: 180%;
+  margin-top: -83%;
+}
