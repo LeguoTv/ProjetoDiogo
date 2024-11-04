@@ -14,6 +14,21 @@ h1 {
   margin: 5px;
   font-size: 30px;
 }
+.login {
+}
+.login a {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid rgb(116, 116, 116);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-left: 90%;
+}
+
 .banner img {
   max-width: 100%;
 }
