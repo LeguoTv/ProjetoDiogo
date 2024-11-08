@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, #000000, #1b1b1b);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.pai {
+  background-color: rgba(17, 17, 17, 0.938);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 150px;
+  border-radius: 8px;
+  text-align: center;
+  width: 400px;
+}
+h1 {
+  margin-top: -100px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+#img {
+  position: relative;
+  margin-top: -100px;
+  width: 200px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+}
+
+.continuar a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.continuar a:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+hr {
+  width: 500px;
+  height: 2px;
+  background-color: #333;
+  border: none;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+.login {
+  margin-top: 50px;
+}
+.login label {
+  display: block;
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.login input {
+  font-weight: bolder;
+  font-size: 15px;
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #333333;
+  background-color: #222222;
+  color: #ffffff;
+}
+#ENTRAR {
+  display: block;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 17px;
+  background-color: #00ff66; /* Cor de fundo */
+  color: #000; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px; /* Bordas arredondadas */
+  text-align: center;
+  transition: 0.5s;
+}
+#ENTRAR:hover {
+  background: #00ff40;
+}
+#senha {
+  display: block;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+#senha:hover {
+  color: #00ff66;
+}
+.pai p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.pai p a {
+  color: #ffffff;
+}
+.pai p a:hover {
+  color: #00ff66;
+}
