@@ -1,25 +1,25 @@
-body{
-    background-image: url(imagens/Como-Criar-Imagens-com-IA-Um-Passo-a-Passo03.jpg);
+body {
+  background-image: url(imagens/Como-Criar-Imagens-com-IA-Um-Passo-a-Passo03.jpg);
 }
-#principal{
-    background-image: url(imagens/iStock-536613027-1024x683.webp);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 60px;
+#principal {
+  background-image: url(imagens/iStock-536613027-1024x683.webp);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
 }
-.links a{
-    color:aqua;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 40px;
+.links a {
+  color: aqua;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 40px;
 }
-#coisas{
-    color: aliceblue;
+#coisas {
+  color: aliceblue;
 }
-#pagina1{
-    background-color: black;
+#pagina1 {
+  background-color: black;
 }

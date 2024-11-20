@@ -1,12 +1,17 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   background-color: rgba(238, 239, 240, 0.849);
   background-image: url("imagens/IA.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
 }
+
 h1 {
   background-image: url("imagens/por\ atrás\ do\ titulo.jpg");
   text-align: center;
@@ -14,93 +19,155 @@ h1 {
   margin: 5px;
   font-size: 30px;
 }
-.login {
-}
+
 .login a {
   display: flex;
   margin-top: 10px;
+  width: 100px;
   justify-content: center;
   text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border: 2px solid rgb(116, 116, 116);
+  font-family: "Lucida Sans", sans-serif;
+  border: 2px solid transparent;
   border-radius: 10px;
   margin-left: auto;
-  margin-left: 90%;
+  margin-right: 10px;
+  background-color: rgb(0, 253, 42);
+  color: aliceblue;
+  transition: 1.5s;
+}
+
+.login a:hover {
+  background-color: blue;
 }
 
 .banner img {
   max-width: 100%;
 }
+
 .categoria {
   background-color: rgb(236, 235, 235);
-  height: 900px;
-  margin-left: 20px;
+  padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
 }
+
 ul p {
-  margin-top: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
 }
+
 ul li {
   list-style: none;
-  margin-top: 50px;
+  margin-top: 10px;
+  padding: 10px;
 }
+
 ul li:hover {
   background-color: bisque;
 }
+
 .grid {
-  margin-top: 40px;
+  margin-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
 }
+
 .produto {
   border: 1px solid;
   border-radius: 5px;
   text-align: center;
   display: grid;
-  grid-template-columns: 350px 350px 350px;
-  margin-left: 50px;
-  transition: transform 0.3s ease;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .produto a {
   text-decoration: none;
 }
+
 .img {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
-  margin-left: 70px;
   background-color: rgb(255, 255, 255);
-  margin-top: 10px;
+  transition: transform 0.3s ease;
 }
+
 .img:hover {
   transform: scale(1.1);
 }
+
 .informacao {
   color: blue;
-  font-weight: bolder;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
+
 .informacao2 {
   font-style: italic;
 }
+
 .informacao3 {
-  font-size: 30px;
+  font-size: 24px;
 }
+
 .informacao4 {
-  font-weight: bolder;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
   color: rgb(21, 255, 0);
 }
+
 .img img {
-  border: 1px solid rgb(255, 255, 255);
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
-.img p {
-  margin-bottom: 50px;
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .login a {
+    margin-left: 150px;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categoria {
+    height: auto;
+  }
+
+  .produto {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .produto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .grid {
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .produto {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

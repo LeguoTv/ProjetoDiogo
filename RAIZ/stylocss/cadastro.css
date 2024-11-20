@@ -15,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+/* Estilos para o título */
 .title {
   background-image: url(../imagens/por\ atrás\ do\ titulo.jpg);
   text-align: center;
@@ -24,6 +25,8 @@ a {
   font-size: 30px;
   padding: 20px;
 }
+
+/* Estilos para o container principal */
 .principal {
   border: 4px solid rgb(68, 119, 90);
   background-image: url(../imagens/IA.jpg);
@@ -35,10 +38,14 @@ a {
   margin: 100px auto;
   background-size: cover;
 }
+
+/* Estilos para o cabeçalho */
 h1 {
   text-align: center;
   font-size: 30px;
 }
+
+/* Estilos para o formulário */
 .principal form {
   margin-top: 30px;
 }
@@ -76,6 +83,8 @@ input[type="email"] {
 .button:hover {
   background-color: #693b63;
 }
+
+/* Estilos para os botões adicionais */
 button {
   border: 3px solid gray;
   background-color: aliceblue;
@@ -100,6 +109,8 @@ button:hover {
   display: flex;
   justify-content: center;
 }
+
+/* Media Queries para responsividade */
 @media (max-width: 768px) {
   .principal {
     padding: 20px;
