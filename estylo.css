@@ -1,5 +1,6 @@
 body {
   background-image: url(imagens/Como-Criar-Imagens-com-IA-Um-Passo-a-Passo03.jpg);
+  background-repeat: no-repeat;
 }
 #principal {
   background-image: url(imagens/iStock-536613027-1024x683.webp);
